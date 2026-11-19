@@ -1,3 +1,4 @@
+// Guided (Step 1): the data model
 class Destination {
   const Destination({required this.name, required this.tagline});
 
@@ -5,6 +6,8 @@ class Destination {
   final String tagline;
 }
 
+// Guided (Step 1): the hard-coded list
+// Bonus 5: DestinationService now returns this list
 const destinations = [
   Destination(name: 'Djerba', tagline: 'Island & beaches'),
   Destination(name: 'Tozeur', tagline: 'Desert oasis'),
